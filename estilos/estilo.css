@@ -1,0 +1,126 @@
+﻿.material-icons {
+	font-family: 'Material Icons';
+	font-weight: normal;
+	font-style: normal;
+	font-size: 24px;  /* Preferred icon size */
+	display: inline-block;
+	line-height: 1;
+	text-transform: none;
+	letter-spacing: normal;
+	word-wrap: normal;
+	white-space: nowrap;
+	direction: ltr;
+  
+	/* Support for all WebKit browsers. */
+	-webkit-font-smoothing: antialiased;
+	/* Support for Safari and Chrome. */
+	text-rendering: optimizeLegibility;
+  
+	/* Support for Firefox. */
+	-moz-osx-font-smoothing: grayscale;
+  
+	/* Support for IE. */
+	font-feature-settings: 'liga';
+
+	vertical-align: middle;
+  }
+body{
+	background-color: #ddd;
+	font-family: 'Roboto', sans-serif;
+}
+header{
+	font-size: 10px;
+	text-align: right;
+}
+div#corpo{
+	width: 80%;
+	margin: auto;
+	padding: 20px;
+	background-color: white;
+	box-shadow: 0px 0px 30px #777;
+}
+#busca{
+	font-size: 13px;
+	text-align:right;
+}
+footer{
+	font-size: 13px;
+	text-align: center;
+}
+
+table.listagem{
+	width: 100%;
+	text-align: left;
+	border-collapse: collapse;
+}
+
+table.listagem tr{
+	height: 50px;
+}
+
+table.listagem td{
+	padding: 10px;
+}
+
+table.listagem tr:nth-child(odd){
+	background-color: #f2f2f2;
+}
+
+table.listagem td:nth-child(1){
+	width:40px;
+}
+table.listagem td:nth-child(3){
+	width:90px;
+}
+
+#descricao{
+	vertical-align: baseline;
+	font-size: 14px;
+}
+
+#genero{
+	font-size: 12px;
+}
+#produtora{
+	font-size: 12px;
+}
+img.mini{
+	width:50px;
+}
+img.detalhes{
+	width:120px;
+	vertical-align: top;
+}
+
+div#sucess{
+	vertical-align: middle;
+	padding: 7px 10px;
+	margin-bottom: 10px;
+	border-radius: 10px;
+	width: 80%;
+	height: 20px;
+	background-color: rgba(126, 206, 115, 0.603);
+	color: rgb(45, 100, 40);
+}
+
+div#warning{
+	vertical-align: middle;
+	padding: 7px 10px;
+	margin-bottom: 10px;
+	border-radius: 10px;
+	width: 80%;
+	height: 20px;
+	background-color: rgba(219, 217, 104, 0.603);
+	color: rgb(100, 72, 40);
+}
+
+div#error{
+	vertical-align: middle;
+	padding: 7px 10px;
+	margin-bottom: 10px;
+	border-radius: 10px;
+	width: 80%;
+	height: 20px;
+	background-color: rgba(219, 104, 104, 0.603);
+	color: rgb(100, 40, 40);
+}
